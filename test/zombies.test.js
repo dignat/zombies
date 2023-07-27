@@ -8,8 +8,17 @@ test('test1', () => {
     addSpy.mockReturnValue('Lili');
    const name = zombi.getName();
    
-    expect(zombi.getName()).toBe('Lili');
+    expect(name).toBe('Lili');
 
     addSpy.mockRestore();
 
 });
+test('test powers', () => {
+    const zombi = new Zombies('Nesi', 'kung-fu');
+    const addSpy = jest.spyOn(zombi, 'getPowers');
+
+    addSpy.mockReturnValue('kung-fu');
+    const power = zombi.getPowers();
+    expect(power).toEqual('kung-fu');
+    addSpy.mockRestore();
+})
