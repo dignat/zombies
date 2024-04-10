@@ -1,5 +1,5 @@
 import { ShoppingCartItems, ShoppingCart, ShoppingItems } from "./shoppingCartModel";
-import { captureAndLog } from "./types";
+//import { captureAndLog } from "./types";
 
 export class ShoppingBasket {
     private items;
@@ -41,7 +41,7 @@ export class ShoppingBasket {
       }, {} as Record<string, ShoppingCartItems>);
        //accumilation works
       const modifiedQtyItems = this.precalculateTotal(Object.values(accumulateItems))
-      captureAndLog(accumulateItems, 'lemon')
+     // captureAndLog(accumulateItems, 'lemon')
       let total = 0;
       modifiedQtyItems.forEach((item) => {
         total += item.totalForItem;
