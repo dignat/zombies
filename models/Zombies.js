@@ -12,6 +12,9 @@ class Zombies  {
     getPowers() {
         return this.power
     }
+    getWeapon() {
+        return false
+    }
 }
 
 module.exports = Zombies;
