@@ -9,7 +9,11 @@
     "jest": "^29.6.1"
   },
   "jest": {
+<<<<<<< HEAD
     "testPathIgnorePatterns": ["models/*"]
+=======
+    "testPathIgnorePatterns": ["test/*"]
+>>>>>>> f069000 (add jest exclude f7)
   },
   "scripts": {
     "test": "jest",
