@@ -16,3 +16,8 @@ export type ShoppingCart = {
     qtyOfItems: ShoppingCartItems[]
     totalToPay: number
 }
+
+export type ShoppinError = {
+    type: string,
+    message: string
+}
