@@ -1,7 +1,7 @@
 import {describe, it, vi, expect, beforeEach} from 'vitest';
 import { ShoppingBasket } from './shoppingCart';
 import { ShoppingCart, ShoppingItems } from './shoppingCartModel';
-describe.skip('shoppingCart', () => {
+describe('shoppingCart', () => {
     beforeEach(() => {
         vi.clearAllMocks()
     })
