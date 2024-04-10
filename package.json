@@ -9,7 +9,7 @@
     "jest": "^29.6.1"
   },
   "jest": {
-    "testPathIgnorePatterns": ["models/*.spec.ts"]
+    "testPathIgnorePatterns": ["models/*"]
   },
   "scripts": {
     "test": "jest",
