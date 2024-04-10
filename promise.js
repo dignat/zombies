@@ -18,4 +18,4 @@ const fast = fetchProduct(10)
     console.log(err, 'an error')
   })
  // need to see what is the best rebase strategy
- // i made another commet
+ // i made another comment
