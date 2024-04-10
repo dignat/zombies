@@ -1,5 +1,5 @@
 {
-  "type":"module",
+  "type": "module",
   "name": "zombies",
   "version": "1.0.0",
   "description": "",
@@ -12,5 +12,8 @@
     "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vitest": "^1.4.0"
+  }
 }
