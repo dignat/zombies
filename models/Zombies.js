@@ -11,3 +11,4 @@ class Zombies  {
 }
 
 module.exports = Zombies;
+// some comment to test a git flow - rebase locally but merge remotely
