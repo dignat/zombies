@@ -11,3 +11,7 @@ export type MyTestType = {
     __typename: string,
     message: string
 }
+
+export type Dodo = {
+    type: string
+}
