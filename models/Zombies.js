@@ -15,6 +15,9 @@ class Zombies  {
     getWeapon() {
         return false
     }
+    count () {
+        
+    }
 }
 
 module.exports = Zombies;
