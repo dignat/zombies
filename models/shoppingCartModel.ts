@@ -17,7 +17,8 @@ export type ShoppingCart = {
     totalToPay: number
 }
 
-export type ShoppinError = {
+export type ShoppingError = {
     type: string,
-    message: string
+    message: string,
+    errorCode: number,
 }
