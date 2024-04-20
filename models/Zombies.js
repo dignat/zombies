@@ -18,6 +18,9 @@ class Zombies  {
     count () {
         
     }
+    isAlive () {
+        
+    }
 }
 
 module.exports = Zombies;

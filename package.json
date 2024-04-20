@@ -12,7 +12,6 @@
     "testPathIgnorePatterns": ["models/*"]
   },
   "scripts": {
-    "test": "jest",
     "ts:test": "vitest"
   },
   "author": "",
